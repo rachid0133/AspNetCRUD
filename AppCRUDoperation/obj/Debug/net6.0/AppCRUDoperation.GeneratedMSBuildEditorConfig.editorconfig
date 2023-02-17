@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\bighe\OneDrive\Bureau\AspNetRepos\AppCRUDoperation\AppCRUDoperation
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/bighe/OneDrive/Bureau/AspNetRepos/AppCRUDoperation/AppCRUDoperation/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bighe/OneDrive/Bureau/AspNetRepos/AppCRUDoperation/AppCRUDoperation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
