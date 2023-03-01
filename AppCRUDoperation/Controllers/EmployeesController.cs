@@ -17,5 +17,12 @@ namespace AppCRUDoperation.Controllers
             var result = _context.Employees.Include(b=>b.Department).OrderBy(b=>b.EmployeeName).ToList();
             return View(result);
         }
+
+        public IActionResult Create()
+        {
+            ViewBag.Departements = _context.Departments.OrderBy(x=>x.DepartementName).ToList();
+
+            return View();
+        }
     }
 }
