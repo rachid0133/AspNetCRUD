@@ -34,7 +34,7 @@
                 @Html.DisplayNameFor(model => model.NationalId)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DepartmentId)
+                @Html.DisplayNameFor(model => model.Department.DepartementName)
             </th>
             <th></th>
         </tr>
@@ -49,7 +49,7 @@
                 @Html.DisplayFor(modelItem => item.EmployeeName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ImageUser)
+                <img src="images/@item.ImageUser" style="width:35px; height:35px;">
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.BirthDate)
@@ -64,7 +64,7 @@
                 @Html.DisplayFor(modelItem => item.NationalId)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DepartmentId)
+                @Html.DisplayFor(modelItem => item.Department.DepartementName)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |

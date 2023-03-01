@@ -1,6 +1,7 @@
 ﻿using AppCRUDoperation.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace AppCRUDoperation.Controllers
 {
@@ -13,7 +14,7 @@ namespace AppCRUDoperation.Controllers
         }
         public IActionResult Index()
         {
-            var result = _context.Employees.ToList();
+            var result = _context.Employees.Include(b=>b.Department).OrderBy(b=>b.EmployeeName).ToList();
             return View(result);
         }
     }
