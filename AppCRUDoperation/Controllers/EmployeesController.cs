@@ -30,6 +30,22 @@ namespace AppCRUDoperation.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Employee model)
         {
+            var file = HttpContext.Request.Form.Files;
+            if (file.Count() >0) {
+                //upload image
+                string imageName = Guid.NewGuid().ToString() + Path.GetExtension(file[0].FileName);
+                var fileStream = new FileStream(Path.Combine(@"wwwroot/", "images", imageName), FileMode.Create);
+                file[0].CopyTo(fileStream);
+                model.ImageUser = imageName;
+            }
+            else if(model.ImageUser == null && model.EmployeeId==null) {
+                //Image not uploaded
+                model.ImageUser= "DefaultImage.jpg";
+            }
+            else
+            {
+                model.ImageUser = model.ImageUser;
+            }
             if (ModelState.IsValid)
             {
                 _context.Employees.Add(model);
