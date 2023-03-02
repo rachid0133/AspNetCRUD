@@ -1,4 +1,5 @@
 ﻿using AppCRUDoperation.Data;
+using AppCRUDoperation.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,6 +22,21 @@ namespace AppCRUDoperation.Controllers
         public IActionResult Create()
         {
             ViewBag.Departements = _context.Departments.OrderBy(x=>x.DepartementName).ToList();
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Employee model)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Employees.Add(model);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            ViewBag.Departements = _context.Departments.OrderBy(x => x.DepartementName).ToList();
 
             return View();
         }

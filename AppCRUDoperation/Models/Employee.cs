@@ -8,7 +8,7 @@ namespace AppCRUDoperation.Models
     {
         [Key]
         [Display(Name = "ID")]
-        public int EmployeeId { get; set; }
+        public int? EmployeeId { get; set; }
 
         [Required]
         [Display(Name = "Name")]
