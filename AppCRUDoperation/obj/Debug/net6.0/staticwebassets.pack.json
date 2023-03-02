@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\bighe\\OneDrive\\Bureau\\AspNetRepos\\AppCRUDoperation\\AppCRUDoperation\\wwwroot\\images\\1dee0ef4-d185-4109-871c-92f850c551d6.png",
+      "PackagePath": "staticwebassets\\images\\1dee0ef4-d185-4109-871c-92f850c551d6.png"
+    },
+    {
+      "Id": "C:\\Users\\bighe\\OneDrive\\Bureau\\AspNetRepos\\AppCRUDoperation\\AppCRUDoperation\\wwwroot\\images\\52bb1205-3ed3-4a0f-8102-f8f52d809d61.png",
+      "PackagePath": "staticwebassets\\images\\52bb1205-3ed3-4a0f-8102-f8f52d809d61.png"
+    },
+    {
+      "Id": "C:\\Users\\bighe\\OneDrive\\Bureau\\AspNetRepos\\AppCRUDoperation\\AppCRUDoperation\\wwwroot\\images\\addfc746-e72b-487a-bfca-17d90a20f9e9.png",
+      "PackagePath": "staticwebassets\\images\\addfc746-e72b-487a-bfca-17d90a20f9e9.png"
+    },
+    {
       "Id": "C:\\Users\\bighe\\OneDrive\\Bureau\\AspNetRepos\\AppCRUDoperation\\AppCRUDoperation\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
