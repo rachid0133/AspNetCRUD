@@ -36,7 +36,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Department.DepartementName)
             </th>
-            <th></th>
+            <th>Events</th>
         </tr>
     </thead>
     <tbody>
@@ -68,7 +68,8 @@
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new {  id=item.EmployeeId }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.EmployeeId  })
+                @Html.ActionLink("Delete", "Delete", new { id=item.EmployeeId  }, 
+                new{onclick="return confirm('Are you sure you want to delete')"})
             </td>
         </tr>
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gtcgIMdewhN1P06Ut0L+I7v0fVyvj+z0Mx6xAzje0mA=",
+  "Hash": "PMtwr+uGO4FqoHado5Y5wtrIPg5x/EawnDfpyuj66s0=",
   "Source": "AppCRUDoperation",
   "BasePath": "_content/AppCRUDoperation",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\bighe\\OneDrive\\Bureau\\AspNetRepos\\AppCRUDoperation\\AppCRUDoperation\\wwwroot\\images\\03770950-bd5e-43fc-bcde-ea8d471e0c06.png",
+      "SourceId": "AppCRUDoperation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bighe\\OneDrive\\Bureau\\AspNetRepos\\AppCRUDoperation\\AppCRUDoperation\\wwwroot\\",
+      "BasePath": "_content/AppCRUDoperation",
+      "RelativePath": "images/03770950-bd5e-43fc-bcde-ea8d471e0c06.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\03770950-bd5e-43fc-bcde-ea8d471e0c06.png"
     },
     {
       "Identity": "C:\\Users\\bighe\\OneDrive\\Bureau\\AspNetRepos\\AppCRUDoperation\\AppCRUDoperation\\wwwroot\\images\\1dee0ef4-d185-4109-871c-92f850c551d6.png",
